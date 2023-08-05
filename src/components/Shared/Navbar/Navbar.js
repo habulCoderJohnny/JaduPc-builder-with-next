@@ -20,7 +20,9 @@ function Navbar() {
     <header className="sticky top-0 inset-x-0 z-30 bg-white text-gray-900 glassmorphism px-6 md:block hidden">
       <div className="flex items-center w-full max-w-screen-xl py-2 xl:space-x-16 lg:space-x-12  space-x-7  mx-auto">
         <div className="flex items-center font-extrabold">
-          <Link href="/">Logo</Link>
+          <Link href="/">
+          <img className="w-40" src="https://jadupc.com/assets/images/jpc-logo.png" alt=""/>
+          </Link>
         </div>
         <div className="flex-grow">
         </div>

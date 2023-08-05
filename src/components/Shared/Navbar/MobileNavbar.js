@@ -20,7 +20,7 @@ function MobileNavbar() {
               <Bars3Icon className="w-8" onClick={() => setShowBar(true)} />
             </div>
             <Link href={"/"} className="flex items-center font-bold">
-              PC BUILDER
+            <img className="w-20" src="https://jadupc.com/assets/images/jpc-logo.png" alt=""/>
             </Link>
           </div>
           <div

@@ -28,7 +28,7 @@ function SideBarMenu({ closeSideBar }) {
   return (
     <div className="relative h-full w-full sideBarMenu bg-white px-8 py-6  font-medium md:hidden">
       <Link href={"/"} className="font-bold">
-        PC BUILDER
+        <img className="w-20" src="https://jadupc.com/assets/images/jpc-logo.png" alt="" />
       </Link>
       <div className=" h-0.5 my-4 w-full bg-gray-100"></div>
       <div className="my-8">
