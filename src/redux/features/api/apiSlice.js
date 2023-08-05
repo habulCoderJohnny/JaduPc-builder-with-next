@@ -4,7 +4,7 @@ import { HYDRATE } from "next-redux-wrapper";
 export const apiSlice = createApi({
   reducerPath: "api",
   baseQuery: fetchBaseQuery({
-    baseUrl: "http://localhost:5000/",
+    baseUrl: "https://pc-builder-assignment-server.vercel.app/",
   }),
   extractRehydrationInfo(action, { reducerPath }) {
     if (action.type === HYDRATE) {

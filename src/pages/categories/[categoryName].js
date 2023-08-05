@@ -14,7 +14,7 @@ export default Category;
 
 export const getStaticPaths = async () => {
   const res = await fetch(
-    "http://localhost:5000/products"
+    "https://pc-builder-assignment-server.vercel.app/products"
   );
   const products = await res.json();
   const paths = products.map((product) => ({
@@ -31,7 +31,7 @@ export const getStaticProps = async (context) => {
 
   try {
     const res = await fetch(
-      `http://localhost:5000/products?category=${capitalizeFirstLetter(
+      `https://pc-builder-assignment-server.vercel.app/products?category=${capitalizeFirstLetter(
         context.params.categoryName
       )}`
     );
